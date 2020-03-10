@@ -59,6 +59,7 @@ body {
   font-size: 16px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  overflow: hidden;
 }
 
 .container {
@@ -192,5 +193,57 @@ body {
   padding-top: 100px;
   padding-bottom: 130px;
   background-color: #f3f5f8;
+}
+
+.main .main__services {
+  padding-top: 100px;
+}
+
+.main .main__services .main__services_content {
+  padding-top: 85px;
+}
+
+.main .main__services .main__services_content .services_content_logo {
+  width: 152px;
+  height: 152px;
+  background-color: #3dc9b3;
+  border-radius: 50%;
+  margin: 0 auto 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .main__services .main__services_content .services_content_title {
+  font-size: 15px;
+  font-family: "GothamRoundedMedium";
+  color: #353535;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.main .main__services .main__services_content .services_content_title:after {
+  display: block;
+  content: "";
+  width: 33px;
+  height: 3px;
+  background-color: #3dc9b3;
+  position: absolute;
+  top: 45px;
+  left: 163px;
+}
+
+.main .main__services .main__services_content .services_content_subtitle {
+  font-size: 14px;
+  font-family: "Myriad Pro";
+  color: #8c9398;
+  line-height: 1.429;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
