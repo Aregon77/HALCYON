@@ -1,3 +1,66 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'GothamRoundedBook';
+  src: url("../fonts/GothamRounded-Book.eot");
+  src: local("☺"), url("../fonts/GothamRounded-Book.woff") format("woff"), url("../fonts/GothamRounded-Book.ttf") format("truetype"), url("../fonts/GothamRounded-Book.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamRoundedMedium';
+  src: url("../fonts/GothamRounded-Medium.eot");
+  src: local("☺"), url("../fonts/GothamRounded-Medium.woff") format("woff"), url("../fonts/GothamRounded-Medium.ttf") format("truetype"), url("../fonts/GothamRounded-Medium.svg") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamRoundedMediumItalic';
+  src: url("../fonts/GothamRounded-MediumItalic.eot");
+  src: local("☺"), url("../fonts/GothamRounded-MediumItalic.woff") format("woff"), url("../fonts/GothamRounded-MediumItalic.ttf") format("truetype"), url("../fonts/GothamRounded-MediumItalic.svg") format("svg");
+  font-weight: 500;
+  font-style: italic;
+}
+
+.btn {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #3dc9b3;
+  background-color: #3dc9b3;
+  font-size: 15px;
+  font-family: "GothamRoundedBook";
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.btn-header {
+  border-radius: 5px;
+  padding: 1.5em 2.4em;
+  display: inline-block;
+  -webkit-box-shadow: 0 3px #309383;
+          box-shadow: 0 3px #309383;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.btn-header:hover {
+  color: #353535;
+  -webkit-box-shadow: 0 -3px #309383;
+          box-shadow: 0 -3px #309383;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .container {
   width: 100%;
   max-width: 1175px;
@@ -12,6 +75,7 @@
 
 .header .nav-wrapper {
   padding-top: 60px;
+  padding-bottom: 160px;
 }
 
 .header .nav-wrapper .navbar-dark .navbar-toggler {
@@ -46,5 +110,34 @@
 .header .nav-wrapper .navbar-dark .navbar-icon:after {
   top: 7px;
   left: 0;
+}
+
+.header .header__intro .header__intro_title {
+  font-size: 40px;
+  font-family: "GothamRoundedBook";
+  color: #353535;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  word-spacing: -15px;
+  line-height: 1.5;
+}
+
+.header .header__intro .header__intro_title span {
+  color: rgba(53, 53, 53, 0.5);
+}
+
+.header .header__intro .header__intro_subtitle {
+  font-size: 15px;
+  font-family: "GothamRoundedBook";
+  color: rgba(140, 147, 152, 0.8);
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  line-height: 2;
+  padding-bottom: 60px;
+}
+
+.header .header__intro .header__intro_subtitle span {
+  font-family: "GothamRoundedMediumItalic";
+  color: #8c9398;
 }
 /*# sourceMappingURL=main.css.map */
