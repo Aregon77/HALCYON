@@ -1,0 +1,60 @@
+.main__title{
+    h3{
+        font-size: 15px;
+        font-family: $Fonts-GotMedium;
+        color: rgb(53, 53, 53);
+
+        text-transform: uppercase;
+
+        letter-spacing: 4px;
+
+        padding-bottom: 25px;
+    }
+    span{
+        position: relative;
+        img{
+            
+            height: 15px;
+            width: 15px;
+
+            transform: rotate(90deg);
+            
+        }
+        &:before,
+        &:after{
+            content:url(../img/Main/MainTitle/point.png);
+            position: absolute;
+        }
+        &:before{
+            top:-3px;
+            left: -265px;
+        }
+        &:after{
+            top:-3px;
+            left: 45px;
+        }
+    } 
+    p{
+        font-size: 14px;
+        font-family: $Fonts-GotMedium;
+        color: rgba(140, 147, 152,.98);
+        
+        word-spacing: 4px;
+
+        font-weight: 400;
+
+        padding-top: 65px;
+        
+        line-height: 30px;
+    } 
+}
+
+
+.main{
+    .main__intro{
+        padding-top: 100px;
+        padding-bottom: 130px;
+        
+        background-color:#f3f5f8;
+    }
+}

@@ -45,7 +45,7 @@
   transition: all .2s;
 }
 
-.btn-header:hover {
+.btn-header:hover, .btn-header:active {
   color: #353535;
   -webkit-box-shadow: 0 -3px #309383;
           box-shadow: 0 -3px #309383;
@@ -67,6 +67,7 @@ body {
   margin: 0 auto;
 }
 
+/*header*/
 .header {
   height: 800px;
   background: url(../img/HeaderBack.jpg) center no-repeat;
@@ -139,5 +140,57 @@ body {
 .header .header__intro .header__intro_subtitle span {
   font-family: "GothamRoundedMediumItalic";
   color: #8c9398;
+}
+
+/*header*/
+.main__title h3 {
+  font-size: 15px;
+  font-family: "GothamRoundedMedium";
+  color: #353535;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  padding-bottom: 25px;
+}
+
+.main__title span {
+  position: relative;
+}
+
+.main__title span img {
+  height: 15px;
+  width: 15px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.main__title span:before, .main__title span:after {
+  content: url(../img/Main/MainTitle/point.png);
+  position: absolute;
+}
+
+.main__title span:before {
+  top: -3px;
+  left: -265px;
+}
+
+.main__title span:after {
+  top: -3px;
+  left: 45px;
+}
+
+.main__title p {
+  font-size: 14px;
+  font-family: "GothamRoundedMedium";
+  color: rgba(140, 147, 152, 0.98);
+  word-spacing: 4px;
+  font-weight: 400;
+  padding-top: 65px;
+  line-height: 30px;
+}
+
+.main .main__intro {
+  padding-top: 100px;
+  padding-bottom: 130px;
+  background-color: #f3f5f8;
 }
 /*# sourceMappingURL=main.css.map */
