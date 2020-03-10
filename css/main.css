@@ -1,0 +1,50 @@
+.container {
+  width: 100%;
+  max-width: 1175px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 800px;
+  background: url(../img/HeaderBack.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.header .nav-wrapper {
+  padding-top: 60px;
+}
+
+.header .nav-wrapper .navbar-dark .navbar-toggler {
+  padding: .75rem 0.75rem;
+  border: 0;
+}
+
+.header .nav-wrapper .navbar-dark .navbar-icon {
+  display: block;
+  width: 27px;
+  height: 4px;
+  background-color: #372c3c;
+  border-radius: 1px;
+  position: relative;
+}
+
+.header .nav-wrapper .navbar-dark .navbar-icon:before, .header .nav-wrapper .navbar-dark .navbar-icon:after {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 1px;
+  background: inherit;
+  position: absolute;
+}
+
+.header .nav-wrapper .navbar-dark .navbar-icon:before {
+  top: -7px;
+  left: 0;
+}
+
+.header .nav-wrapper .navbar-dark .navbar-icon:after {
+  top: 7px;
+  left: 0;
+}
+/*# sourceMappingURL=main.css.map */
