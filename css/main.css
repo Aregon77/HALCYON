@@ -249,7 +249,9 @@ body {
 
 /*responsive*/
 main .main__responsive {
-  height: 700px;
+  height: 100%;
+  max-height: 700px;
+  padding-top: 130px;
 }
 
 main .main__responsive .main_responsive_picture {
@@ -267,5 +269,45 @@ main .main__responsive .main_responsive_picture img {
   position: absolute;
   top: 0;
   left: 40%;
+}
+
+main .main__responsive .main__responsive_reviews {
+  height: 500px;
+}
+
+main .main__responsive .main__responsive_reviews .responsive_reviews_text {
+  width: 455px;
+  margin: 0 auto;
+}
+
+main .main__responsive .main__responsive_reviews .responsive_reviews_text p {
+  letter-spacing: -1px;
+  word-spacing: 1px;
+  color: rgba(140, 147, 152, 0.8);
+  line-height: 1.429;
+  text-align: justify;
+}
+
+main .main__responsive .main__responsive_reviews .responsive_reviews_text p:not(:nth-child(1)) {
+  padding-top: 10px;
+}
+
+main .main__responsive .main__responsive_reviews #carouselExampleIndicators > ol > li {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid #cbcdcc;
+}
+
+main .main__responsive .main__responsive_reviews #carouselExampleIndicators > div {
+  height: 500px;
+}
+
+main .main__responsive .main__responsive_reviews .carousel-indicators {
+  padding-top: 20px;
+}
+
+main .main__responsive .main__responsive_reviews .carousel-indicators .active {
+  background-color: #000;
 }
 /*# sourceMappingURL=main.css.map */
