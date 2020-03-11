@@ -21,9 +21,11 @@ body{
 }
 /*header*/
 @import '../blockCss/header'; 
-/*main*/
-@import '../blockCss/main'; 
+/*services*/
+@import '../blockCss/services'; 
 /*responsive*/
 @import '../blockCss/main_responsive'; 
 /*counter*/
-@import '../blockCss/_counter'; 
+@import '../blockCss/counter'; 
+/*portfolio*/
+@import '../blockCss/portfolio'; 

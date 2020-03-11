@@ -49,6 +49,34 @@
     } 
 }
 
+.content_title{
+    font-size: 15px;
+    font-family: $Fonts-GotMedium;
+    color: rgb(53, 53, 53);
+    
+    padding-bottom: 50px;
+
+    position: relative;
+    &:after{
+        display: block;
+        content:"";
+        width: 33px;
+        height: 3px;
+
+        background-color:#3dc9b3;
+
+        position: absolute;
+        top: 45px;
+        left: 163px;
+    }
+}
+.content_subtitle{
+    font-size: 14px;
+    font-family: $Fonts-GotMedium;
+    color: rgb(140, 147, 152);
+    line-height: 1.429;
+    text-align: center;
+}
 
 .main{
     .main__intro{
@@ -75,34 +103,7 @@
                 justify-content: center;
                 align-items: center;
             }
-            .services_content_title{
-                font-size: 15px;
-                font-family: $Fonts-GotMedium;
-                color: rgb(53, 53, 53);
-                
-                padding-bottom: 50px;
-
-                position: relative;
-                &:after{
-                    display: block;
-                    content:"";
-                    width: 33px;
-                    height: 3px;
-
-                    background-color:#3dc9b3;
-
-                    position: absolute;
-                    top: 45px;
-                    left: 163px;
-                }
-            }
-            .services_content_subtitle{
-                font-size: 14px;
-                font-family: "Myriad Pro";
-                color: rgb(140, 147, 152);
-                line-height: 1.429;
-                text-align: center;
-            }
+            
         }
     }
 }

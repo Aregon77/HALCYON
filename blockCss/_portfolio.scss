@@ -1,0 +1,30 @@
+.main__portfolio{
+   height: 660px; 
+   padding-top: 104px;
+   #carouselExampleIndicators > ol > li{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 2px solid #cbcdcc;
+   }
+   .carousel-indicators .active{
+       background-color:#000;
+   }
+   .carousel-inner{
+       height: 500px;
+   }
+   .main__portfolio_block{
+       .portfolio_picture{
+           width: 361px;
+           height: 251px;
+           overflow: hidden;
+
+           padding-bottom: 45px;
+           img{
+               width: 100%;
+               height: 100%;
+           }
+       }
+   }
+}
+
