@@ -1,0 +1,30 @@
+main{
+    .main__responsive{
+        height: 700px;
+        .main_responsive_picture{
+            background:url(../img/Main/main__responsive/Back.jpg) no-repeat center;
+            background-size:cover;
+
+            height: 700px;
+
+            position: relative;
+            z-index: 10;
+
+            overflow: hidden;
+            
+
+            box-shadow: -42px 0px 56px -55px #000000 inset;
+
+            img{
+                position: absolute;
+                top: 0;
+                left: 40%;
+            }
+        }
+        .main__responsive_reviews{
+            
+        }
+    }
+}
+
+
