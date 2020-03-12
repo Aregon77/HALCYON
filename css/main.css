@@ -376,8 +376,9 @@ main .main__responsive .main__responsive_reviews .carousel-indicators .active {
 
 /*portfolio*/
 .main__portfolio {
-  height: 660px;
+  height: 700px;
   padding-top: 104px;
+  padding-bottom: 105px;
 }
 
 .main__portfolio #carouselExampleIndicators > ol > li {
