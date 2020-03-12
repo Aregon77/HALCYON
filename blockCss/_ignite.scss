@@ -1,0 +1,23 @@
+.main__ignite{
+    height: 200px;
+    background-color: #242830;
+    .main__ignite_btn{
+        padding-top: 60px;
+        .btn-ignite{
+            background-color:transparent;
+            color: #fff;
+    
+            border: 1px solid #fff;
+    
+            padding: 30px 40px;
+            
+            transition: all .2s;
+
+            &:hover{
+                border-color: rgb(61, 201, 179);
+                 background-color: rgb(61, 201, 179);
+            }
+        }
+    }
+    
+}
