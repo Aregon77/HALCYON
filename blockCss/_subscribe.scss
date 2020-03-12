@@ -1,0 +1,47 @@
+.main__subscribe{
+    height: 450px;
+    background: url(../img/Main/main__subs/back.jpg) no-repeat center;
+    background-size: cover;
+
+    position: relative;
+    .main__subscribe_intro{
+        padding-top: 120px;
+        .subscribe_intro_picture{
+            padding-bottom: 25px;
+        }
+        h3{
+            font-size: 15px;
+            font-family: $Fonts-GotMedium;
+            color: rgb(255, 255, 255);
+            letter-spacing: 4px;
+            word-spacing: 2px;
+
+            padding-bottom: 50px;
+        }
+        form{
+            input{
+                width: 100%;
+                max-width: 350px;
+                height: 70px;
+                background:transparent;
+
+                border:1px solid #fff;
+
+                font-size: 25px;
+                font-family: $Fonts-GotMedium;
+                color: rgb(255, 255, 255);
+            }
+            .btn-subs{
+                padding: 24px 23px;
+                border-radius: 0;
+            }
+        }
+        .arrow{
+            position: absolute;
+
+            top: 110%;
+            left: 45%;
+        }
+
+    }
+}
