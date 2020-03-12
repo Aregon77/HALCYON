@@ -1,0 +1,32 @@
+.main__team{
+    padding-top: 85px;
+    height: 900px;
+    .team_carousel{
+        padding-top: 60px;
+        #carouselExampleIndicators > div{
+            height: 600px;
+        }
+        #carouselExampleIndicators > ol > li{
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            border: 2px solid #cbcdcc;
+        }
+        .carousel-indicators .active {
+            background-color: #000;
+        }    
+        .social{
+            padding-top: 40px;
+            .social_link{
+                text-decoration: none;
+                .social_icon{
+                    width: 40px;
+                    height: 40px;
+                    &:hover{
+                        fill: #3aa0a0;
+                    }
+                }
+            }
+        }
+    }
+}
