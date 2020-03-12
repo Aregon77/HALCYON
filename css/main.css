@@ -267,7 +267,7 @@ main .main__responsive .main_responsive_picture {
 main .main__responsive .main_responsive_picture img {
   position: absolute;
   top: 0;
-  left: 40%;
+  left: 52%;
   display: block;
   height: 100%;
 }
@@ -521,6 +521,7 @@ main .main__responsive .main__responsive_reviews .carousel-indicators .active {
 
 .main__team .team_carousel .social .social_link {
   text-decoration: none;
+  margin-left: 10px;
 }
 
 .main__team .team_carousel .social .social_link .social_icon {
