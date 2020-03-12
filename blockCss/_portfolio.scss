@@ -17,14 +17,72 @@
    .main__portfolio_block{
        .portfolio_picture{
            width: 361px;
-           height: 251px;
+           height: 200px;
            overflow: hidden;
 
-           padding-bottom: 45px;
-           img{
+           
+           position: relative;
+
+           
+           &:before{
+            display: block;
+            content:"";
+            background-color:rgb(61, 201, 179);
+
+            opacity: 0;
+
+            width: 100%;
+            height: 100%;
+
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            transition: all .4s;
+            }
+           
+           .portfolio{
                width: 100%;
-               height: 100%;
+               height: 100%; 
            }
+           .search{
+               position: absolute;
+               top: 40%;
+               left: 48%;
+               z-index: 100;
+
+               opacity: 0;
+
+               transition: all .4s;
+           }
+           .btn-search{
+                position: absolute;
+                top: 53%;
+                left: 32%;
+                z-index: 100;
+
+                background: transparent;
+                border:0;
+
+                font-family:$Fonts-GotMedium;
+                opacity: 0;
+
+                transition: all .4s;
+               &:hover{
+                   color:#fff;
+               }
+           }
+           &:hover{
+                &:before{
+                    opacity: .8;
+                }
+                .search,.btn-search{
+                    opacity: 1;
+                }
+           }
+       }
+       .content_title{
+        padding-top: 45px;
        }
    }
 }

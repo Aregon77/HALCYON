@@ -398,14 +398,67 @@ main .main__responsive .main__responsive_reviews .carousel-indicators .active {
 
 .main__portfolio .main__portfolio_block .portfolio_picture {
   width: 361px;
-  height: 251px;
+  height: 200px;
   overflow: hidden;
-  padding-bottom: 45px;
+  position: relative;
 }
 
-.main__portfolio .main__portfolio_block .portfolio_picture img {
+.main__portfolio .main__portfolio_block .portfolio_picture:before {
+  display: block;
+  content: "";
+  background-color: #3dc9b3;
+  opacity: 0;
   width: 100%;
   height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.main__portfolio .main__portfolio_block .portfolio_picture .portfolio {
+  width: 100%;
+  height: 100%;
+}
+
+.main__portfolio .main__portfolio_block .portfolio_picture .search {
+  position: absolute;
+  top: 40%;
+  left: 48%;
+  z-index: 100;
+  opacity: 0;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.main__portfolio .main__portfolio_block .portfolio_picture .btn-search {
+  position: absolute;
+  top: 53%;
+  left: 32%;
+  z-index: 100;
+  background: transparent;
+  border: 0;
+  font-family: "GothamRoundedMedium";
+  opacity: 0;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.main__portfolio .main__portfolio_block .portfolio_picture .btn-search:hover {
+  color: #fff;
+}
+
+.main__portfolio .main__portfolio_block .portfolio_picture:hover:before {
+  opacity: .8;
+}
+
+.main__portfolio .main__portfolio_block .portfolio_picture:hover .search, .main__portfolio .main__portfolio_block .portfolio_picture:hover .btn-search {
+  opacity: 1;
+}
+
+.main__portfolio .main__portfolio_block .content_title {
+  padding-top: 45px;
 }
 
 /*ignite*/
