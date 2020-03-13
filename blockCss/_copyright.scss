@@ -1,0 +1,17 @@
+.footer__copyright{
+    height: 122px;
+    background-color: #242830;
+    nav{
+        padding-top: 57px;
+        a{
+            font-size: 0.9em;
+            font-family: $Fonts-GotBook;
+            color: rgb(161, 169, 176);
+            &:first-child{
+                border-right:2px solid rgb(161, 169, 176);
+                margin-right: 12px;
+                padding-right: 12px;
+            }
+        }
+    }
+}

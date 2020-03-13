@@ -631,4 +631,26 @@ main .main__responsive .main__responsive_reviews .carousel-indicators .active {
   text-transform: lowercase;
   color: #000;
 }
+
+/*copyright*/
+.footer__copyright {
+  height: 122px;
+  background-color: #242830;
+}
+
+.footer__copyright nav {
+  padding-top: 57px;
+}
+
+.footer__copyright nav a {
+  font-size: 0.9em;
+  font-family: "GothamRoundedBook";
+  color: #a1a9b0;
+}
+
+.footer__copyright nav a:first-child {
+  border-right: 2px solid #a1a9b0;
+  margin-right: 12px;
+  padding-right: 12px;
+}
 /*# sourceMappingURL=main.css.map */
