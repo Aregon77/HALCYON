@@ -1,22 +1,21 @@
+.slick-dots li button:before{
+    content:"";
+    width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      border: 2px solid #cbcdcc;
+      opacity: 1;  
+ }  
+ .slick-active button:before{
+  background-color:#000;
+  } 
+
 .main__portfolio{
    height: 700px; 
    padding-top: 104px;
    padding-bottom: 105px;
    .portfolio__sl{
        padding-bottom: 70px;
-       .slick-dots li button:before{
-          content:"";
-          width: 14px;
-            height: 14px;
-            border-radius: 50%;
-            border: 2px solid #cbcdcc;
-            opacity: 1;  
-       }  
-       .slick-active button:before{
-        background-color:#000;
-} 
-       
-
         .main__portfolio_block{
             .portfolio_picture{
                 width: 361px;

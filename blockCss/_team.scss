@@ -19,18 +19,11 @@
     height: 900px;
     .team_carousel{
         padding-top: 60px;
-        #carouselExampleIndicators > div{
-            height: 600px;
+        padding-bottom: 70px;
+        .team__block_picture{
+            img{
+                margin: auto;
+            }
         }
-        #carouselExampleIndicators > ol > li{
-            width: 14px;
-            height: 14px;
-            border-radius: 50%;
-            border: 2px solid #cbcdcc;
-        }
-        .carousel-indicators .active {
-            background-color: #000;
-        }    
-        
     }
 }

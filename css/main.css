@@ -377,17 +377,7 @@ main .main__responsive .main__responsive_reviews .carousel-indicators .active {
 }
 
 /*portfolio*/
-.main__portfolio {
-  height: 700px;
-  padding-top: 104px;
-  padding-bottom: 105px;
-}
-
-.main__portfolio .portfolio__sl {
-  padding-bottom: 70px;
-}
-
-.main__portfolio .portfolio__sl .slick-dots li button:before {
+.slick-dots li button:before {
   content: "";
   width: 14px;
   height: 14px;
@@ -396,8 +386,18 @@ main .main__responsive .main__responsive_reviews .carousel-indicators .active {
   opacity: 1;
 }
 
-.main__portfolio .portfolio__sl .slick-active button:before {
+.slick-active button:before {
   background-color: #000;
+}
+
+.main__portfolio {
+  height: 700px;
+  padding-top: 104px;
+  padding-bottom: 105px;
+}
+
+.main__portfolio .portfolio__sl {
+  padding-bottom: 70px;
 }
 
 .main__portfolio .portfolio__sl .main__portfolio_block .portfolio_picture {
@@ -515,21 +515,11 @@ main .main__responsive .main__responsive_reviews .carousel-indicators .active {
 
 .main__team .team_carousel {
   padding-top: 60px;
+  padding-bottom: 70px;
 }
 
-.main__team .team_carousel #carouselExampleIndicators > div {
-  height: 600px;
-}
-
-.main__team .team_carousel #carouselExampleIndicators > ol > li {
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  border: 2px solid #cbcdcc;
-}
-
-.main__team .team_carousel .carousel-indicators .active {
-  background-color: #000;
+.main__team .team_carousel .team__block_picture img {
+  margin: auto;
 }
 
 /*subscribe*/

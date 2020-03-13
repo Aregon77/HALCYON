@@ -1,6 +1,6 @@
 
   $(document).ready(function(){
-    $('.portfolio__sl').slick({
+    $('.portfolio__sl, .team_carousel').slick({
         dots: true,
         infinite: true,
         speed: 300,
