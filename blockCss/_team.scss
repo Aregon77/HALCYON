@@ -1,3 +1,19 @@
+.social{
+    padding-top: 40px;
+    .social_link{
+        text-decoration: none;
+        margin-left: 10px;
+        .social_icon{
+            width: 40px;
+            height: 40px;
+            &:hover{
+                fill: #3aa0a0;
+            }
+        }
+    }
+}
+
+
 .main__team{
     padding-top: 85px;
     height: 900px;
@@ -15,19 +31,6 @@
         .carousel-indicators .active {
             background-color: #000;
         }    
-        .social{
-            padding-top: 40px;
-            .social_link{
-                text-decoration: none;
-                margin-left: 10px;
-                .social_icon{
-                    width: 40px;
-                    height: 40px;
-                    &:hover{
-                        fill: #3aa0a0;
-                    }
-                }
-            }
-        }
+        
     }
 }

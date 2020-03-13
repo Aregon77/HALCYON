@@ -491,6 +491,24 @@ main .main__responsive .main__responsive_reviews .carousel-indicators .active {
 }
 
 /*team*/
+.social {
+  padding-top: 40px;
+}
+
+.social .social_link {
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.social .social_link .social_icon {
+  width: 40px;
+  height: 40px;
+}
+
+.social .social_link .social_icon:hover {
+  fill: #3aa0a0;
+}
+
 .main__team {
   padding-top: 85px;
   height: 900px;
@@ -513,24 +531,6 @@ main .main__responsive .main__responsive_reviews .carousel-indicators .active {
 
 .main__team .team_carousel .carousel-indicators .active {
   background-color: #000;
-}
-
-.main__team .team_carousel .social {
-  padding-top: 40px;
-}
-
-.main__team .team_carousel .social .social_link {
-  text-decoration: none;
-  margin-left: 10px;
-}
-
-.main__team .team_carousel .social .social_link .social_icon {
-  width: 40px;
-  height: 40px;
-}
-
-.main__team .team_carousel .social .social_link .social_icon:hover {
-  fill: #3aa0a0;
 }
 
 /*subscribe*/
@@ -584,6 +584,7 @@ main .main__responsive .main__responsive_reviews .carousel-indicators .active {
 .footer {
   padding-top: 120px;
   background-color: #f3f5f8;
+  height: 670px;
 }
 
 .footer .footer__title {
