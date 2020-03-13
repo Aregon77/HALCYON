@@ -1,77 +1,93 @@
-// .main__portfolio{
-//    height: 700px; 
-//    padding-top: 104px;
-//    padding-bottom: 105px;
-//    .main__portfolio_block{
-//        .portfolio_picture{
-//            width: 361px;
-//            height: 200px;
-//            overflow: hidden;
+.main__portfolio{
+   height: 700px; 
+   padding-top: 104px;
+   padding-bottom: 105px;
+   .portfolio__sl{
+       padding-bottom: 70px;
+       .slick-dots li button:before{
+          content:"";
+          width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            border: 2px solid #cbcdcc;
+            opacity: 1;  
+       }  
+       .slick-active button:before{
+        background-color:#000;
+} 
+       
 
-           
-//            position: relative;
-
-           
-//            &:before{
-//             display: block;
-//             content:"";
-//             background-color:rgb(61, 201, 179);
-
-//             opacity: 0;
-
-//             width: 100%;
-//             height: 100%;
-
-//             position: absolute;
-//             top: 0;
-//             left: 0;
-
-//             transition: all .4s;
-//             }
-           
-//            .portfolio{
-//                width: 100%;
-//                height: 100%; 
-//            }
-//            .search{
-//                position: absolute;
-//                top: 40%;
-//                left: 48%;
-//                z-index: 100;
-
-//                opacity: 0;
-
-//                transition: all .4s;
-//            }
-//            .btn-search{
-//                 position: absolute;
-//                 top: 53%;
-//                 left: 32%;
-//                 z-index: 100;
-
-//                 background: transparent;
-//                 border:0;
-
-//                 font-family:$Fonts-GotMedium;
-//                 opacity: 0;
-
-//                 transition: all .4s;
-//                &:hover{
-//                    color:#fff;
-//                }
-//            }
-//            &:hover{
-//                 &:before{
-//                     opacity: .8;
-//                 }
-//                 .search,.btn-search{
-//                     opacity: 1;
-//                 }
-//            }
-//        }
-//        .content_title{
-//         margin-top: 45px;
-//        }
-//    }
-// }
+        .main__portfolio_block{
+            .portfolio_picture{
+                width: 361px;
+                height: 200px;
+                overflow: hidden;
+    
+                
+                position: relative;
+    
+                
+                &:before{
+                display: block;
+                content:"";
+                background-color:rgb(61, 201, 179);
+    
+                opacity: 0;
+    
+                width: 100%;
+                height: 100%;
+    
+                position: absolute;
+                top: 0;
+                left: 0;
+    
+                transition: all .4s;
+                }
+                
+                .portfolio{
+                    width: 100%;
+                    height: 100%; 
+                }
+                .search{
+                    position: absolute;
+                    top: 40%;
+                    left: 48%;
+                    z-index: 100;
+    
+                    opacity: 0;
+    
+                    transition: all .4s;
+                }
+                .btn-search{
+                    position: absolute;
+                    top: 53%;
+                    left: 32%;
+                    z-index: 100;
+    
+                    background: transparent;
+                    border:0;
+    
+                    font-family:$Fonts-GotMedium;
+                    opacity: 0;
+    
+                    transition: all .4s;
+                    &:hover{
+                        color:#fff;
+                    }
+                }
+                &:hover{
+                    &:before{
+                        opacity: .8;
+                    }
+                    .search,.btn-search{
+                        opacity: 1;
+                    }
+                }
+            }
+            .content_title{
+            margin-top: 45px;
+            }
+        }
+   }
+}
 
