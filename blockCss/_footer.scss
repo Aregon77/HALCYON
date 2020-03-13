@@ -1,0 +1,50 @@
+.footer{
+    padding-top: 120px;
+    background-color:#f3f5f8;
+    .footer__title{
+        padding-bottom: 90px;
+    }
+    .footer__block{
+        padding-bottom: 100px;
+        .footer__block_item{
+            width: 100%;
+            max-width: 360px;
+            height: 152px;
+
+            background-color: #fff;
+            .footer_address{
+                padding-top: 30px;
+                img{
+                    padding-bottom: 20px;
+                }
+                h4{
+                    padding-bottom: 25px;
+
+                    font-size: 0.9em;
+                    font-family:$Fonts-GotMedium;
+                    color: rgb(61, 201, 179);
+
+                    text-transform: uppercase;
+
+                    letter-spacing: 4px;
+
+                    margin: 0;
+                }
+                p,a{
+                    
+                    font-size: 0.9em;
+                    font-family:$Fonts-GotMedium;
+                    color: rgb(140, 147, 152);
+
+                    text-transform: capitalize;
+                }
+                p > .footer_mail{
+                    text-transform: lowercase;
+
+                    color: #000;
+                }
+            }
+        }
+
+    }
+}
