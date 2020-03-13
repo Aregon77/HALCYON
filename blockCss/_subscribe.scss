@@ -1,11 +1,12 @@
 .main__subscribe{
-    height: 450px;
+    
     background: url(../img/Main/main__subs/back.jpg) no-repeat center;
     background-size: cover;
 
     position: relative;
     .main__subscribe_intro{
         padding-top: 120px;
+        padding-bottom: 160px;
         .subscribe_intro_picture{
             padding-bottom: 25px;
         }
@@ -39,8 +40,16 @@
         .arrow{
             position: absolute;
 
-            top: 110%;
+            top: 96%;
             left: 45%;
+            &:before{
+                transform: rotate(45deg);
+                top: 21px;
+            }
+            &:after{
+                transform: rotate(-45deg);
+                top: 21px;
+            }
         }
 
     }

@@ -1,6 +1,9 @@
 main{
     .main__responsive{
         padding-top: 130px;
+        .main_responsive_photo{
+            padding-right: 0;
+        }
         .main_responsive_picture{
             background:url(../img/Main/main__responsive/Back.jpg) no-repeat center;
             background-size:cover;
@@ -66,3 +69,8 @@ main{
 }
 
 
+@media screen and (max-width:767px){
+    main .main__responsive .main_responsive_picture img{
+        left: 0;
+    }
+}
