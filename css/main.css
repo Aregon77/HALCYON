@@ -573,11 +573,13 @@ main .main__responsive .main__responsive_reviews .carousel-indicators .active {
   font-size: 25px;
   font-family: "GothamRoundedMedium";
   color: white;
+  margin-bottom: 10px;
 }
 
 .main__subscribe .main__subscribe_intro form .btn-subs {
   padding: 24px 23px;
   border-radius: 0;
+  margin-bottom: 10px;
 }
 
 .main__subscribe .main__subscribe_intro .arrow {
