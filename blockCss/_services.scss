@@ -54,24 +54,29 @@
     font-family: $Fonts-GotMedium;
     color: rgb(53, 53, 53);
     
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 
     position: relative;
     margin-top: 45px;
 
     text-transform: uppercase;
-    &:after{
-        display: block;
-        content:"";
-        width: 33px;
-        height: 3px;
+    
+}
+.line{
+    display: block;
 
-        background-color:#3dc9b3;
+    width: 100%;
+    max-width: 33px;
 
-        position: absolute;
-        top: 45px;
-        left: 163px;
-    }
+    height: 3px;
+
+    background-color:#3dc9b3;
+
+    font-size: 0;
+
+    margin: auto;
+
+    margin-bottom: 30px;
 }
 .content_subtitle{
     font-size: 14px;
