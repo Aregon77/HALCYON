@@ -40,6 +40,8 @@
                 top: 0;
                 left: 0;
     
+                -webkit-transition: all .4s;
+    
                 transition: all .4s;
                 }
                 
@@ -55,6 +57,8 @@
     
                     opacity: 0;
     
+                    -webkit-transition: all .4s;
+    
                     transition: all .4s;
                 }
                 .btn-search{
@@ -68,6 +72,8 @@
     
                     font-family:$Fonts-GotMedium;
                     opacity: 0;
+    
+                    -webkit-transition: all .4s;
     
                     transition: all .4s;
                     &:hover{

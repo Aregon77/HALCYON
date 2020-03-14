@@ -161,7 +161,7 @@ body {
   height: 15px;
   width: 15px;
   -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 .main__title span:before, .main__title span:after {
@@ -242,11 +242,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
 }
 
 /*responsive*/
@@ -348,14 +348,14 @@ main .main__responsive .main__responsive_reviews .carousel-indicators .active {
   top: 22px;
   left: 20px;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .arrow:after {
   top: 22px;
   left: 15px;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .main .main__counter {
@@ -590,13 +590,13 @@ main .main__responsive .main__responsive_reviews .carousel-indicators .active {
 
 .main__subscribe .main__subscribe_intro .arrow:before {
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
   top: 21px;
 }
 
 .main__subscribe .main__subscribe_intro .arrow:after {
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
   top: 21px;
 }
 

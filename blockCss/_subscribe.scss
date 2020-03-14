@@ -46,11 +46,13 @@
             top: 96%;
             left: 45%;
             &:before{
-                transform: rotate(45deg);
+                -webkit-transform: rotate(45deg);
+                        transform: rotate(45deg);
                 top: 21px;
             }
             &:after{
-                transform: rotate(-45deg);
+                -webkit-transform: rotate(-45deg);
+                        transform: rotate(-45deg);
                 top: 21px;
             }
         }

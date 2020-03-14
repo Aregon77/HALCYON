@@ -17,7 +17,9 @@
             height: 15px;
             width: 15px;
 
-            transform: rotate(90deg);
+            -webkit-transform: rotate(90deg);
+
+                    transform: rotate(90deg);
             
         }
         &:before,
@@ -107,9 +109,13 @@
 
                 margin:0 auto 50px auto;
 
+                display: -webkit-box;
+
                 display: flex;
-                justify-content: center;
-                align-items: center;
+                -webkit-box-pack: center;
+                        justify-content: center;
+                -webkit-box-align: center;
+                        align-items: center;
             }
             
         }

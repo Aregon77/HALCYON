@@ -26,12 +26,14 @@
     &:before{
         top: 22px;
         left: 20px;
-        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+                transform: rotate(-45deg);
     }
     &:after{
         top: 22px;
         left: 15px;
-        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+                transform: rotate(45deg);
     }
 }
 

@@ -20,6 +20,8 @@
     
     box-shadow: 0 3px #309383 ;
 
+    -webkit-transition: all .2s;
+
     transition: all .2s;
     &:hover,
     &:active{
